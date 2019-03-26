@@ -1,0 +1,29 @@
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+    <defs>
+        <style>
+            .shape{ fill:#ffffff; transition: all 0.4s; cursor: pointer;}
+            .cls-1:hover{fill:#e03432;}
+            .cls-2:hover{fill:#f8ef69;}
+            .cls-3:hover{fill:#6d6d6d;}
+            .cls-4:hover{fill:#65bf74;}
+            .cls-5:hover{fill:#cfcfce;}
+            .cls-6:hover{fill:#426fb6;}
+            .cls-7:hover{fill:#231e59;}
+            .cls-8{fill:none;stroke:#231f20;stroke-miterlimit:10;stroke-width:4px;}
+        </style>
+    </defs>
+    <title>paradise-tangram</title>
+    <polygon class="shape cls-1" points="178 333.99 256 255.99 413 412.98 413 413.02 99 413.02 99 411.34 100.65 411.34 178 333.99"/>
+    <polygon class="shape cls-2" points="413 99.02 413 412.98 256 255.99 333.75 178.24 412.97 99.02 413 99.02"/>
+    <polygon class="shape cls-3" points="412.97 99.02 333.75 178.24 333.47 177.96 255.83 100.32 255.83 99.02 412.97 99.02"/>
+    <polygon class="shape cls-4" points="333.75 178.24 256 255.99 178.08 178.07 255.83 100.32 333.47 177.96 333.75 178.24"/>
+    <polygon class="shape cls-5" points="178.08 178.07 256 255.99 178 333.99 178 178.15 178.08 178.07"/>
+    <polygon class="shape cls-6" points="178.08 178.07 178 178.15 99.25 256.9 99 256.9 99 99.02 255.83 99.02 255.83 100.32 178.08 178.07"/>
+    <polygon class="shape cls-7" points="178 178.15 178 333.99 100.65 411.34 99 411.34 99 256.9 99.25 256.9 178 178.15"/>
+    <polygon class="shape cls-8" points="413 412.98 413 413.02 99 413.02 99 411.34 99 256.9 99 99.02 255.83 99.02 412.97 99.02 413 99.02 413 412.98"/>
+    <polyline class="shape cls-8" points="413.01 98.98 412.97 99.02 333.75 178.24 256 255.99 178 333.99 100.65 411.34"/>
+    <polyline class="shape cls-8" points="255.83 100.32 178.08 178.07 178 178.15 99.25 256.9"/>
+    <line class="shape cls-8" x1="255.83" y1="100.32" x2="333.47" y2="177.96"/>
+    <polyline class="shape cls-8" points="178 178.02 178 178.15 178 333.99 178 334.02"/>
+    <polyline class="shape cls-8" points="413.01 412.99 413 412.98 256 255.99 178.08 178.07 177.74 177.73"/>
+</svg>
