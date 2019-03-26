@@ -1,6 +1,4 @@
 //  insert svg
-//  usage:
-//  <div class="svg" data-svg="img/cta.svg"></div>
 
 const insertSvg = (elem) => {
 	let t = document.getElementsByClassName(elem)
