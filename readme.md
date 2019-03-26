@@ -7,11 +7,11 @@ Insert SVGs directly into the dom with js.
 Simply place the path to the svg within the data attribute.
 
 ```html
-<div class="svg" data-svg="img/cta.svg"></div>
+<div class="my-class" data-svg="img/cta.svg"></div>
 ```
-Call the function on the svg class. You can name the class whatever you like.
+Call the function on the class you choose.
 ```js
-insertSvg('svg');
+insertSvg('my-class');
 ```
 
 ```
