@@ -1,4 +1,4 @@
-### Insert SVG
+## Insert SVG
 
 Insert SVGs directly into the dom with js.
 
