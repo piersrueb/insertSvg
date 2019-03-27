@@ -11,7 +11,7 @@ Simply place the path to the svg within the data attribute.
 ```
 Call the function on the class you choose.
 ```js
-insertSvg('my-class');
+insertSvg('.my-class');
 ```
 
 ```

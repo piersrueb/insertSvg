@@ -1,7 +1,7 @@
 //  insert svg
 
 const insertSvg = (elem) => {
-	let t = document.getElementsByClassName(elem)
+	let t = document.querySelectorAll(elem)
 	for (let i = 0; i < t.length; i++) {
 		let file = t[i].dataset.svg;
 		let xhr = new XMLHttpRequest;
@@ -15,4 +15,4 @@ const insertSvg = (elem) => {
 		xhr.send();
 	}
 }
-insertSvg('svg');
+insertSvg('.svg');
