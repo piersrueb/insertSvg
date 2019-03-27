@@ -1,4 +1,4 @@
-### Insert SVG
+### insertSvg
 
 Dynamically insert SVGs directly into the dom.
 
