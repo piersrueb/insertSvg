@@ -15,4 +15,7 @@ const insertSvg = (elem) => {
 		xhr.send();
 	}
 }
+
+//  call it
+
 insertSvg('.svg');
