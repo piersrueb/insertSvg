@@ -1,8 +1,9 @@
 //  insert svg
 
-const insertSvg = (elem) => {
+const insertSvg = (elem, method) => {
 	let t = document.querySelectorAll(elem)
 	for (let i = 0; i < t.length; i++) {
+		let cl = t[i].className;
 		let file = t[i].dataset.svg;
 		let xhr = new XMLHttpRequest;
 		xhr.open('get', file, true);
@@ -10,7 +11,12 @@ const insertSvg = (elem) => {
 			if (xhr.readyState != 4) return;
 			let svg = xhr.responseXML.documentElement;
 			svg = document.importNode(svg, true);
-			t[i].appendChild(svg);
+			if(method === 'replace'){
+				svg.setAttribute('class', cl);
+				t[i].replaceWith(svg);
+			} else {
+				t[i].appendChild(svg);
+			}
 		};
 		xhr.send();
 	}
@@ -18,4 +24,4 @@ const insertSvg = (elem) => {
 
 //  call it
 
-insertSvg('.svg');
+insertSvg('.svg', 'replace');
