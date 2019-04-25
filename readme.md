@@ -18,7 +18,7 @@ insertSvg('.my-class');
 
 #### Replace
 
-By default the svg element is inserted within the element. To instead replace the element with the svg use the method below. The initial element classes are preserved.
+By default the svg is inserted within the node. To instead replace the node with the svg use the method below. Element classes are preserved.
 
 ```js
 insertSvg('.my-class', 'replace');
