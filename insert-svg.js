@@ -11,21 +11,12 @@ const insertSvg = (elem, method) => {
 			if (xhr.readyState != 4) return;
 			let svg = xhr.responseXML.documentElement;
 			svg = document.importNode(svg, true);
-
 			if(t[i].classList.contains('replace')){
 				svg.setAttribute('class', cl);
 				t[i].replaceWith(svg);
 			} else {
 				t[i].appendChild(svg);
 			}
-
-			// if(method === 'replace'){
-			// 	svg.setAttribute('class', cl);
-			// 	t[i].replaceWith(svg);
-			// } else {
-			// 	t[i].appendChild(svg);
-			// }
-
 		};
 		xhr.send();
 	}
