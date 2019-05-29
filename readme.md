@@ -18,7 +18,7 @@ insertSvg('.my-class');
 
 #### Replace
 
-By default the svg is inserted within the node. To instead replace the node with the svg add the ```replace``` class to the element. Element classes are preserved.
+By default the svg is inserted within the node. To instead replace the node with the svg add the ```replace``` class to the element. All element classes are preserved.
 
 ```html
 <div class="my-class replace" data-svg="img/cta.svg"></div>
